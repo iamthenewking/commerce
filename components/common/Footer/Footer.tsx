@@ -31,7 +31,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-gray-700 mr-2">
                   <Logo />
                 </span>
-                <span>ACME</span>
+                <span>We Build Store</span>
               </a>
             </Link>
           </div>
@@ -93,18 +93,9 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2020 We Build Store, Inc. All rights reserved.</span>
           </div>
-          <div className="flex items-center">
-            <span className="text-primary">Crafted by</span>
-            <a href="https://vercel.com" aria-label="Vercel.com Link">
-              <img
-                src="/vercel.svg"
-                alt="Vercel.com Logo"
-                className="inline-block h-6 ml-4 text-primary"
-              />
-            </a>
-          </div>
+          
         </div>
       </Container>
     </footer>
